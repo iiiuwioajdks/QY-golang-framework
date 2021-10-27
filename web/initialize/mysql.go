@@ -7,10 +7,10 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
+	"jiaoshoujia/web/global"
 	"log"
 	"os"
 	"time"
-	"uapply_go/web/global"
 )
 
 var err error

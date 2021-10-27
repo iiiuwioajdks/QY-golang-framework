@@ -10,6 +10,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"jiaoshoujia/web/global"
 	"net"
 	"net/http"
 	"net/http/httputil"
@@ -17,7 +18,6 @@ import (
 	"runtime/debug"
 	"strings"
 	"time"
-	"uapply_go/web/global"
 )
 
 var lg *zap.Logger

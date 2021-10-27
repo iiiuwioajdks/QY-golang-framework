@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
+	"jiaoshoujia/web/global"
 	"time"
-	"uapply_go/web/global"
 )
 
 // InitRedis 连接redis

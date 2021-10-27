@@ -5,9 +5,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
+	"jiaoshoujia/web/global"
+	"jiaoshoujia/web/models"
 	"net/http"
-	"uapply_go/web/global"
-	"uapply_go/web/models"
 )
 
 type JWT struct {

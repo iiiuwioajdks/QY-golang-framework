@@ -1,8 +1,9 @@
 package initialize
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
-	"uapply_go/web/global"
+	"jiaoshoujia/web/global"
 )
 
 func Init() *gin.Engine {
@@ -11,6 +12,7 @@ func Init() *gin.Engine {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println(global.Conf)
 	// 日志初始化
 	err = InitLogger(global.Conf.LoggerInfo.Mode)
 	if err != nil {

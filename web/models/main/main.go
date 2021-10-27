@@ -6,10 +6,10 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
+	"jiaoshoujia/web/models"
 	"log"
 	"os"
 	"time"
-	"uapply_go/web/models"
 )
 
 func main() {

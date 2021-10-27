@@ -2,12 +2,12 @@ package main
 
 import (
 	"go.uber.org/zap"
+	"jiaoshoujia/web/global"
+	"jiaoshoujia/web/initialize"
 	"os"
 	"os/signal"
 	"strconv"
 	"syscall"
-	"uapply_go/web/global"
-	"uapply_go/web/initialize"
 )
 
 func main() {
